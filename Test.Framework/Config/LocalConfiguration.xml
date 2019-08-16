@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <environment>
+    <custom>
+      <!-- Personal box and override variables go here and can be looked up from here.-->
+      <!-- In most cases, simply use the exact name from EnvironmentDataTypeEnum.-->
+      <!-- Example usages:  -->
+
+      <!-- <Services_FxiSybase>DVLP09_SYBASE</Services_FxiSybase> -->
+      <!-- <Services_BaseUrlEsb>http://desb.prod.bcidaho.loc</Services_BaseUrlEsb> -->
+      <!-- <Services_Sybase>DVLP09_SYBASE</Services_Sybase> -->
+      <!-- <Services_BaseUrlWebSvc>http://dvlp-bciwebsvc.prod.bcidaho.loc</Services_BaseUrlWebSvc> -->
+      <!--<Employer_PortalUrl>http://localhost:49248</Employer_PortalUrl>-->
+
+      <!-- Variables not part of EnvironmentDataTypeEnum: -->
+
+      <!--      <portnumber>123</portnumber>-->
+      <clientid>Ahy3eLvw7IZDPV13MQLGRAflHRrHgpXy</clientid>
+      <clientsecret>kDvOcuWEeHmCAwDvkmQ2gnBIH_0AVcXjoWe2cm31IsF9A2sOvhrRb0QJLsLqcAbQ</clientsecret>
+      <audience>https://brokerdomainapi.bcidaho.com/</audience>
+      <auth0mgmtaudience>https://identity.auth0-dev.ss.aws.bcidaho.com/api/v2/</auth0mgmtaudience>
+      <auth0mgmturl>https://identity.auth0-dev.ss.aws.bcidaho.com</auth0mgmturl>
+      <logpath>P:\Departments\Systems and Programming\Shared\Selenium\{Broker}</logpath>
+    </custom>
+  </environment>
+</config>
